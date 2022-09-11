@@ -1,46 +1,37 @@
 # Introdução
+Cada dia que passa, a busca por um estilo de vida saudável tem se tornado ponto importante na vida das pessoas. Diversos métodos estão sendo utilizados para aumentar a longevidade e também para que esse aumento do período de vida seja aproveitado com saúde e qualidade. Em paralelo, tem-se observado um movimento em busca de performance em atividades físicas, como por exemplo: corrida, natação, musculação, etc. E até mesmo o objetivo de se alcançar um determinado padrão estético. 
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Um dos métodos, talvez o mais importante, seria a otimização dos hábitos alimentares, onde o indivíduo se alimenta procurando alcançar as diretrizes nutricionais repassadas pelo profissional de saúde. Porém tudo ao primeiro momento parece confuso ou muito difícil de se colocar em prática devido as informações sobre os alimentos estarem difusas e mal organizadas. 
+
+Diante disso, torna-se fundamental que exista uma aplicação onde o indivíduo consiga mensurar suas necessidades nutricionais e ver quais alimentos irão satisfazer tais necessidades
+
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade do usuário em calcular suas necessidades nutricionais e saber quais alimentos irão atende-las.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um site de monitoramento de dietas saudáveis e personalizadas para necessidade de cada usuário. Utilizando cálculos nutricionais para o monitoramento do consumo diário de nutrientes, com a finalidade de proporcionar uma reeducação alimentar para que o usuário alcance seus objetivos.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+* Fornecer funcionalidades que permitam o cálculo da taxa metabólica basal e dos macronutrientes do usuário;
+*	Propor e criar receitas saudáveis conforme a necessidade calórica diária do usuário;
+*	Consultar informações nutricionais sobre cada alimento;
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Segundo a pesquisa feita pela Federação das Indústrias do Estado de São Paulo (Fiesp) com três mil pessoas maiores de 16 anos, em 12 regiões metropolitanas do Brasil, aponta que 80% dos brasileiros buscam por uma alimentação saudável. E a maior parte (40%) dos entrevistados usam a internet como fonte principal de busca de informações sobre alimentação e saúde. (CRUZ, 2018)
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com isso, observamos que é fundamental a criação de uma aplicação web que forneça os cálculos básicos para formular uma dieta conforme a necessidade do usuário, priorizando difundir informações confiáveis, sempre baseada em estudos de Nutrólogos e no Guia Alimentar para a População Brasileira elaborado pelo Ministério da Saúde. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+CRUZ, F. Pesquisa mostra que 80% dos brasileiros buscam alimentação saudável. Agência Brasil, São Paulo, 23 mai. 2018. Disponível em: < https://agenciabrasil.ebc.com.br/saude/noticia/2018-05/pesquisa-mostra-que-80-dos-brasileiros-buscam-alimentacao-saudavel>
+Acesso em: 29 ago. 2022.
+
+Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Básica. Guia alimentar para a população brasileira / Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Atenção Básica. – 2. ed., 1. reimpr. – Brasília: Ministério da Saúde, 2014.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Estabeleceu-se como público-alvo qualquer pessoa acima de 16 anos que busque criar novos hábitos, controlar sua alimentação em busca de um estilo de vida saudável.
