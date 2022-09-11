@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Nutriu Fácil  
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMA`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
 
-`SEMESTRE`
+`2º SEMESTRE DE 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma apiacação de monitoramento de dietas saudáveis e personalizadas para necessidade de cada usuário. Utilizando cálculos nutricionais para o monitoramento do consumo diário de nutrientes, com a finalidade de proporcionar uma reeducação alimentar para que o usuário alcance seus objetivos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Brenno Braga Queiroz
+* Cibeli Maria Munhoz
+* Diego Victor Fraga Menighin
+* Fagner Vieira Pereira
+* Lucas Eduardo Honório Da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
