@@ -17,8 +17,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Amanda Gomes  | Obter receitas com alimentos que possuo na despensa           | Aproveitá-los              |
+|Roberto Antunes\Lorena Martins       | Calcular quantidade de calorias e macronutrientes ideais                 | Alcançar resultados almejados |
+|Roberto Antunes       | Inserir receita própria                 | Calcular quantidade de calorias que não extrapole a meta diária. |
+|João Mauricio\Ana Lobo      | Encontrar receitas prontas                 | Para alcançar resultados almejados |
+|Lorena Martins       | Inserir plano nutricional                 | Controlar calorias ingeridas no dia. |
+|Lorena Martins\Ana Lobo      | Consultar informações nutricionais dos alimentos                 | Controlar calorias ingeridas no dia. |
+
 
 
 
@@ -30,30 +35,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir que o usuário calcule necessidade nutricional diária. | ALTA | 
+|RF-002| A aplicação deve permitir que o usuário consulte informações nutricionais dos alimentos   | ALTA |
+|RF-003| A aplicação deve permitir que o usuário consulte receitas já prontas com infomações nutricionais   | ALTA |
+|RF-004| A aplicação deve permitir que o usuário adicione e edite receitas próprias  | ALTA |
+|RF-005| A aplicação deve permitir que o usuário insira e controle seu plano nutricional  | ALTA |
+|RF-006| A aplicação deve permitir que o usuário registre controle de estoque dos itens na sua despensa   | ALTA |
+|RF-007| A aplicação deve permitir que o usuário encontre receitas com os itens que ja possui na despensa   | ALTA |
+|RF-008| A aplicação deve ter área do usuário, com login e senha  | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| A aplicação deve ser publicada em ambiente acessível publicamente na internet | ALTA | 
+|RNF-002| A aplicação deve ser de fácil usabilidade |  MÉDIA | 
+|RNF-003| A Aplicação deve ser responsiva, podendo ser utilizada em diversos dispositivos |  ALTA | 
+|RNF-004| A Aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft edge)|  ALTA | 
 
 ## Restrições
 
@@ -61,15 +59,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar a data de 11/12/2022. |
+|02| A aplicação deverá se restringir a programação com a linguagem C# para back-end. Devendo utilizar Framework ASP.NET Core MVC.       |
+|03| O site deve utilizar como sistema de gerenciamento de banco de dados (SGBD) um sistema compatível com o ambiente de desevolimento e publicação.        |
+|04| A aplicação deve obedecer a Lei Geral de Proteção de Dados Pessoais (LGPD) para compartilhamento e armazenamento de dados sensíveis.       |
+|05| A equipe não pode subcontratar o desenvolvimento do trabalho.        |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
 
 ## Diagrama de Casos de Uso
 
